@@ -8,6 +8,15 @@ interface DataItem {
   TotalSales: number
 }
 
+// Define tooltip props type
+interface TooltipProps {
+  active?: boolean
+  payload?: Array<{
+    value: number
+    payload: DataItem
+  }>
+}
+
 // Sample data from the assignment
 const data: DataItem[] = [
   { Product: "aaa", TotalValue: 10, TotalSales: 10 },
@@ -26,7 +35,7 @@ const data: DataItem[] = [
 const sortedData = [...data].sort((a, b) => b.TotalSales - a.TotalSales)
 
 // Custom tooltip component
-const CustomTooltip = ({ active, payload }: any) => {
+const CustomTooltip = ({ active, payload }: TooltipProps) => {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white p-2 border border-gray-200 shadow-md text-xs">
