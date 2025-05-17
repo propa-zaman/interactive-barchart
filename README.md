@@ -98,8 +98,7 @@ This project is built with modern web technologies:
 
 The project follows the Next.js App Router convention:
 
-\`\`\`
-/
+```bash
 ├── app/                  # Main application code
 │   ├── components/       # React components
 │   │   ├── interactive-barchart.tsx  # Bar chart visualization
@@ -110,4 +109,30 @@ The project follows the Next.js App Router convention:
 ├── public/               # Static assets
 │   └── favicon.ico       # Site favicon
 └── README.md             # Project documentation
-\`\`\`
+```
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Recharts](https://recharts.org/)
+---
+
+## Contact
+
+Your Name - propazaman12@gmailcom
+
+Project Link: [https://github.com/propa-zaman/interactive-barchart](https://github.com/propa-zaman/interactive-barchart)
