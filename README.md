@@ -27,7 +27,7 @@ A Next.js application featuring interactive data visualization components includ
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/interactive-charts.git
+git clone https://github.com/propa-zaman/interactive-charts.git
 cd interactive-charts
 ```
 2. Install dependencies:
